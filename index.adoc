@@ -1,0 +1,56 @@
+= My Demo Documentation
+:author: John Smith
+:email: john@example.com
+:revnumber: v0.1
+:description: This is a demo documentation to showcase asciidoc
+:title-logo-image: image:01_start/pictures/logo.png[top=20%,align=center,pdfwidth=40%]
+:optimize: printer
+:pdf-page-size: [210mm, 297mm]
+:pdf-page-margin: [20mm, 20mm, 20mm, 20mm]
+//:front-cover-image: image:cover.svg[fit=cover]
+//:notitle:
+:doctype: book
+:multipage-level: 2
+:chapter-label: Chapter
+:toc: left
+:toclevels: 2
+:toc-title: Table of Contents
+:sectnumlevels: 2
+:source-highlighter: rouge
+:rouge-style: github
+:tabsize: 4
+:imagesdir: .
+
+// Include the non-numbered sections (preface, introduction, etc).
+== Introduction
+This text is included before the sections. +
+This chapter has no number. 
+
+ifdef::backend-html5,backend-multipage_html5[]
+this text is only visible in the html output. It is not shown in the pdf file. +
+https://example.com
+endif::backend-html5,backend-multipage_html5[]
+
+// Enable chapter numbering.
+:sectnums:
+
+== Start
+include::01_start/beginning.adoc[leveloffset=+2]
+
+== Important Text
+include::02_important_text/important01.adoc[leveloffset=+2]
+include::02_important_text/important02.adoc[leveloffset=+2]
+include::02_important_text/important03.adoc[leveloffset=+2]
+
+== Final Words
+include::03_final_words/conclusion.adoc[leveloffset=+2]
+
+== Demo of variable usage
+
+[cols="1a,1a"]
+|===
+| Section Name        | Variable defined in sub document 
+| Important01         | {var_important01} 
+| Important02         | {var_important02} 
+| Important03         | {var_important03} 
+|===

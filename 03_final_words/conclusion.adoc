@@ -1,0 +1,15 @@
+ifndef::imagesdir[:imagesdir: ../]
+
+= Conclusion
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac.
+
+[quote,Yoda]
+____
+Pass on what you have learned. 
+Strength. 
+Mastery. 
+But weakness, folly, failure also. +
+Yes, failure most of all. 
+The greatest teacher, failure is.
+____

@@ -1,0 +1,34 @@
+ifndef::imagesdir[:imagesdir: ../]
+
+= Important 03
+:var_important03: 42
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. {var_important03}
+Donec non libero non velit consequat consequat. 
+Nam tincidunt ipsum sed leo scelerisque dignissim. 
+Quisque velit justo, interdum vel tincidunt in, sagittis. 
+
+[%unbreakable]
+--
+.Python Code:
+[,python]
+----
+import math
+
+pi = math.pi
+print(f"The value of pi is approximately **{pi:.15f}**.")
+----
+--
+
+== Demo Lists
+
+.Simple List:
+* list item
+** sub-item
+* another list item
+
+.Complex List:
+. Numbered Item
+.. sub-number
+*** test
+. another number

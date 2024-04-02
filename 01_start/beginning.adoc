@@ -1,0 +1,14 @@
+ifndef::imagesdir[:imagesdir: ../]
+
+= The Beginning
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Cras at congue metus. 
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. +
+Proin sed fringilla lectus, a cursus. 
+
+[WARNING]
+====
+This text is just a template. +
+You have to change it.
+====

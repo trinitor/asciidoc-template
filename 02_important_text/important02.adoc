@@ -1,0 +1,13 @@
+ifndef::imagesdir[:imagesdir: ../]
+
+= Important 02
+:var_important02: some text
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. +
+Nulla et magna a libero lacinia efficitur non at elit. 
+Etiam in urna consequat, ultrices lorem non, semper leo. +
+Suspendisse id efficitur. 
+
+Picture: 
+
+image::02_important_text/pictures/picture01.jpg[align="left",width=50%]

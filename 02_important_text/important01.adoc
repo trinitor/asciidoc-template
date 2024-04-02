@@ -1,0 +1,25 @@
+ifndef::imagesdir[:imagesdir: ../]
+
+= Important 01
+:var_important01: Last Review Date 2024-01-01
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Aliquam lectus nisl, consequat eu nulla vel, aliquet interdum est. +
+Morbi nec nisl id felis efficitur volutpat. 
+Fusce ut faucibus nibh, sit. 
+
+
+monospace font used for hash column 
+[cols="47%,52%"]
+|===
+|Input|Hash
+
+|foo
+|`acbd18db4cc2f85cedef654fccc4a4d8`
+
+|the brown fox jumps over the lazy dog
+|`f8af20d3ced0bbb0feaea6f02cd87405`
+
+|the bronw fox jumps over the lazy dog
+|`8194bdbb23ffcbd7714cab4a17b3cad0`
+|===

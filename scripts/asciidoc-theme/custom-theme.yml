@@ -1,0 +1,76 @@
+extends: default
+base:
+  font-color: #333333
+  font-family: Bitter
+  font-size: 10
+  line-height: 1.15
+  text-align: justify
+codespan:
+  font-color: #333333
+  font-family: Roboto
+  font-size: 10
+quote:
+  font-size: 11
+heading:
+  h2-margin-page-top: 6
+  h2-margin-bottom: 12
+  h2-align: center
+  h2-font-size: 14
+  h3-font-size: 12
+  h3-margin-top: 4
+  h3-margin-bottom: 4
+  h4-font-size: 10
+  h4-margin-top: 4
+  h4-margin-bottom: 4
+  h5-font-size: 9
+  h5-margin-top: 4
+  h5-margin-bottom: 3
+link:
+  font-color: #333333
+  font-family: Bitter
+  font-size: 10
+code:
+  font-family: Roboto
+  font-size: 10
+  line-height: 1.15
+  font-color: #333333
+  background-color: #DDDDDD
+  highlight-background-color: #DDDDDD
+toc:
+  line-height: 1.3
+  title:
+    font-size: 14
+  dot-leader:
+    content: ". "
+list:
+  item-spacing: 2
+description-list:
+  term-spacing: 2
+olist:
+  marker:
+    line-height: 1.1
+ulist:
+  marker:
+    font-family: Noto Serif
+    line-height: 1.1
+    disc:
+      content: "\u2022"
+    square:
+      content: "\u2022"
+    circle:
+      content: "\u2022"
+image:
+  align: center
+font:
+  catalog:
+    merge: true
+    Roboto:
+      normal: roboto-normal.ttf
+      bold: roboto-bold.ttf
+      italic: roboto-italic.ttf
+      bold-italic: roboto-bold-italic.ttf
+    Bitter:
+      normal: bitter-normal.ttf
+      bold: bitter-bold.ttf
+      italic: bitter-italic.ttf
+      bold-italic: bitter-bold-italic.ttf
